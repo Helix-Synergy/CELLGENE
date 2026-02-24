@@ -152,3 +152,8 @@
 .hover-underline-animation.right:hover::after {
   transform-origin: bottom right;
 }
+
+.active-nav-link::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

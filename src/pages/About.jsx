@@ -25,25 +25,25 @@ const data = {
     organizer: "Helix Conferences",
     description: [
       <>
-  
-The World Cell & Gene Therapy Manufacturing Summit, organized by <Link to= "/cellgene-orators"  className="
+
+        The World Cell & Gene Therapy Manufacturing Summit, organized by <Link to="/cellgene-orators" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
-Helix Conferences,</Link> is a distinguished international forum dedicated to advancing robust, scalable, and compliant manufacturing solutions for cell and gene therapies that improve patient access and global healthcare outcomes.
-The conference is designed to enable high-level knowledge exchange, cross-sector collaboration, and evidence-based dialogue accelerating the translation of cell and gene therapies from clinical development to commercial manufacturing. Key focus areas include viral vector production, cell processing, scale-up and scale-out strategies, GMP compliance, quality control, automation,
-<Link to="/about-cellgene"className="
+          Helix Conferences,</Link> is a distinguished international forum dedicated to advancing robust, scalable, and compliant manufacturing solutions for cell and gene therapies that improve patient access and global healthcare outcomes.
+        The conference is designed to enable high-level knowledge exchange, cross-sector collaboration, and evidence-based dialogue accelerating the translation of cell and gene therapies from clinical development to commercial manufacturing. Key focus areas include viral vector production, cell processing, scale-up and scale-out strategies, GMP compliance, quality control, automation,
+        <Link to="/about-cellgene" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
-               digital manufacturing,
- </Link> and supply-chain resilience.
-Through keynote addresses, plenary sessions, expert-led panels, technical workshops, and industry case studies, participants gain strategic insights into emerging manufacturing technologies, regulatory expectations, operational excellence, and sustainable commercialization models.
- 
-      
+          digital manufacturing,
+        </Link> and supply-chain resilience.
+        Through keynote addresses, plenary sessions, expert-led panels, technical workshops, and industry case studies, participants gain strategic insights into emerging manufacturing technologies, regulatory expectations, operational excellence, and sustainable commercialization models.
+
+
       </>,
       <>
         {/* From cutting-edge AI to advanced robotics, from cybersecurity trends to sustainable engineering—we curate thought-provoking content and create immersive spaces where innovation thrives. Explore our sessions to engage with the future of technology, exchange ideas with global experts, and drive impactful solutions across industries.{" "} */}
         <Link
-          to= "/cellgene-conference-tracks/"
+          to="/cellgene-conference-tracks/"
           target="blank"
           rel="noopener noreferrer"
           className="text-accent font-bold"
@@ -58,53 +58,53 @@ Through keynote addresses, plenary sessions, expert-led panels, technical worksh
       // linkText: "Microbiome Science",
       // link: "/",
       suffix:
-       "Join global leaders, innovators, and policymakers in shaping a scalable, reliable, and patient-centric cell and gene therapy manufacturing ecosystem..",
+        "Join global leaders, innovators, and policymakers in shaping a scalable, reliable, and patient-centric cell and gene therapy manufacturing ecosystem..",
     },
   ],
- highlights :[
-  {
-    title: "Distinguished Keynote Speakers",
-    description:
-      "Engage with internationally recognized leaders shaping the future of cell and gene therapy manufacturing, regulation, and commercialization.",
-  },
-  {
-    title: "Technical Workshops & Expert Sessions",
-    description:
-      "Participate in deep-dive sessions on viral vector manufacturing, cell processing, automation, analytical characterization, and GMP best practices.",
-  },
-  {
-    title: "Innovation & Technology Exhibition",
-    description:
-      "Explore advanced manufacturing platforms, closed-system solutions, digital tools, and next-generation bioprocess technologies.",
-  },
-  {
-    title: "Strategic Networking Opportunities",
-    description:
-      "Connect with global stakeholders across biopharma, CDMOs, academia, technology providers, and regulatory bodies.",
-  },
-  {
-    title: "GMP & Regulatory Excellence Focus",
-    description:
-      "Gain insights into global regulatory frameworks, quality-by-design approaches, and compliance strategies for ATMP manufacturing.",
-  },
-  {
-    title: "Manufacturing & Market Intelligence",
-    description:
-      "Discover the latest trends in scale-up, cost optimization, supply-chain strategies, and commercial readiness.",
-    linkText: "View event schedule",
-    link: "/cellgene-event-schedule",
-  },
-  {
-    title: "Collaboration & Partnership Platforms",
-    description:
-      "Build strategic alliances to accelerate technology transfer, scale manufacturing, and expand global access.",
-  },
-  {
-    title: "Professional Development & Accreditation",
-    description:
-      "Earn professional development recognition through certified training sessions and advanced technical workshops.",
-  },
-],
+  highlights: [
+    {
+      title: "Distinguished Keynote Speakers",
+      description:
+        "Engage with internationally recognized leaders shaping the future of cell and gene therapy manufacturing, regulation, and commercialization.",
+    },
+    {
+      title: "Technical Workshops & Expert Sessions",
+      description:
+        "Participate in deep-dive sessions on viral vector manufacturing, cell processing, automation, analytical characterization, and GMP best practices.",
+    },
+    {
+      title: "Innovation & Technology Exhibition",
+      description:
+        "Explore advanced manufacturing platforms, closed-system solutions, digital tools, and next-generation bioprocess technologies.",
+    },
+    {
+      title: "Strategic Networking Opportunities",
+      description:
+        "Connect with global stakeholders across biopharma, CDMOs, academia, technology providers, and regulatory bodies.",
+    },
+    {
+      title: "GMP & Regulatory Excellence Focus",
+      description:
+        "Gain insights into global regulatory frameworks, quality-by-design approaches, and compliance strategies for ATMP manufacturing.",
+    },
+    {
+      title: "Manufacturing & Market Intelligence",
+      description:
+        "Discover the latest trends in scale-up, cost optimization, supply-chain strategies, and commercial readiness.",
+      linkText: "View event schedule",
+      link: "/cellgene-event-schedule",
+    },
+    {
+      title: "Collaboration & Partnership Platforms",
+      description:
+        "Build strategic alliances to accelerate technology transfer, scale manufacturing, and expand global access.",
+    },
+    {
+      title: "Professional Development & Accreditation",
+      description:
+        "Earn professional development recognition through certified training sessions and advanced technical workshops.",
+    },
+  ],
 
 
 
@@ -137,7 +137,7 @@ const AboutPublicHealth = () => {
       </div>
 
       <h1 className="text-4xl mt-2 font-bold text-one">
-Fostering Innovation Manufacturing the Future of Advanced Therapies
+        Fostering Innovation Manufacturing the Future of Advanced Therapies
       </h1>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
@@ -148,7 +148,7 @@ Fostering Innovation Manufacturing the Future of Advanced Therapies
       {data.event.description.map((desc, idx) => (
         <p
           key={idx}
-          className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+          className="mb-6 text-lg leading-relaxed text-center text-justify w-full min-w-5xl px:2 md:px-12 lg:px-24"
         >
           {desc}
         </p>
@@ -162,7 +162,7 @@ Fostering Innovation Manufacturing the Future of Advanced Therapies
         {data.join.map((para, idx) => (
           <p
             key={idx}
-            className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+            className="mb-6 text-lg leading-relaxed text-center text-justify w-full min-w-5xl px:2 md:px-12 lg:px-24"
           >
             {para.text} <Link to={para.link}>{para.linkText}</Link>
             {para.suffix}
@@ -177,25 +177,25 @@ Fostering Innovation Manufacturing the Future of Advanced Therapies
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <User className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-  Cell & Gene Therapy Scientists and Researchers
+              Cell & Gene Therapy Scientists and Researchers
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <BookOpen className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
- Biopharma Manufacturing and Process Development Leaders
+              Biopharma Manufacturing and Process Development Leaders
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <Rocket className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-CDMOs and Technology Solution Providers
+              CDMOs and Technology Solution Providers
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <PackageSearch className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-Quality, Regulatory, and Compliance Professionals
+              Quality, Regulatory, and Compliance Professionals
             </h3>
           </div>
         </div>
