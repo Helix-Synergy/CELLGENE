@@ -284,7 +284,7 @@ const ContactForm = () => {
                   {infiniteHybridConferences.map((item, idx) => (
                     <a
                       key={`hybrid-${idx}`}
-                      href="https://helixconferences.com/hybrid-events.php"
+                      href="https://helixconferences.com/"
                       className="block text-black text-base py-2 px-4 bg-white shadow rounded my-1 mx-2 hover:bg-gray-50 transition cursor-pointer"
                       target="_blank"
                       rel="noopener noreferrer"

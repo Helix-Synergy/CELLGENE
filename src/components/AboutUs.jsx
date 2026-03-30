@@ -40,7 +40,7 @@ The Cell & Gene Therapy Manufacturing Summit brings together pioneers in viral a
  <Link
             className="text-accent font-bold"
             target="_blank"
-            to="https://helixconferences.com/blog.php"
+            // to="https://helixconferences.com/blog.php"
           >
            
             
