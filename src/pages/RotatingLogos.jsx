@@ -2,26 +2,26 @@ import React, { useEffect, useState } from "react";
 import { Sparkle } from "lucide-react";
 import { Link } from "react-router-dom";
 // Images for agri
-import img1 from "../assets/tracks/img1.jpg";
-import img2 from "../assets/tracks/img2.jpg"
-import img3 from "../assets/tracks/img3.jpg";
-import img4 from "../assets/tracks/img4.jpg";
-import img5 from "../assets/tracks/img5.jpg";
-import img6 from "../assets/tracks/img6.jpg"
-import img7 from "../assets/tracks/img7.jpg";
-import img8 from "../assets/tracks/img8.jpg"
+import img1 from "../assets/tracks/img1.webp";
+import img2 from "../assets/tracks/img2.webp"
+import img3 from "../assets/tracks/img3.webp";
+import img4 from "../assets/tracks/img4.webp";
+import img5 from "../assets/tracks/img5.webp";
+import img6 from "../assets/tracks/img6.webp"
+import img7 from "../assets/tracks/img7.webp";
+import img8 from "../assets/tracks/img8.webp"
 import img9 from "../assets/tracks/img9.avif";
-import img10 from "../assets/tracks/img10.jpeg"
-import img11 from "../assets/tracks/img11.jpeg";
+import img10 from "../assets/tracks/img10.webp"
+import img11 from "../assets/tracks/img11.webp";
 import img12 from "../assets/tracks/img12.webp"
 import img13 from "../assets/tracks/img13.avif";
-import img14 from "../assets/tracks/img14.jpg"
-import img15 from "../assets/tracks/img15.jpg";
-import img16 from "../assets/tracks/img16.jpg"
-import img17 from "../assets/tracks/img17.jpg"
-import img18 from "../assets/tracks/img18.jpg";
-import img19 from "../assets/tracks/img19.jpg"
-import img20 from "../assets/tracks/img20.jpg"
+import img14 from "../assets/tracks/img14.webp"
+import img15 from "../assets/tracks/img15.webp";
+import img16 from "../assets/tracks/img16.webp"
+import img17 from "../assets/tracks/img17.webp"
+import img18 from "../assets/tracks/img18.webp";
+import img19 from "../assets/tracks/img19.webp"
+import img20 from "../assets/tracks/img20.webp"
 
 export const tracks = [
   {

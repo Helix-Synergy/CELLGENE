@@ -6,16 +6,16 @@ const Home = () => {
   return (
     <>
       <div className="scroll-smooth relative h-[86vh] home flex flex-col md:flex-row py-12 scroll-x-hidden w-full">
-        
+
         {/* Overlay - PURPLE themed */}
         <div className="absolute inset-0 bg-primary bg-opacity-60 z-0"></div>
 
         {/* Content */}
         <div className="relative z-2 flex flex-col items-start px-1 md:px-8 mt-4 justify-center h-full text-lightGreen text-2xl md:text-3xl font-bold">
-          
+
           <div className="flex flex-row items-end gap-4">
             <h1 className="text-accent text-shadow-md font-bold text-5xl md:text-6xl">
-         Oct
+              Oct
             </h1>
 
             <div className="flex flex-col justify-center items-start leading-tight">
@@ -23,19 +23,19 @@ const Home = () => {
                 22-23 | 2026
               </p>
               <p className="text-base md:text-lg font-bold text-one">
-           Singapore
+                Singapore|Singapore city
               </p>
             </div>
           </div>
 
           <h1 className="text-3xl md:text-6xl my-4 w-full md:w-[90vw] text-white">
-Cell & Gene Therapy Manufacturing Summit
+            Cell & Gene Therapy Manufacturing Summit
           </h1>
 
           <p className="text-2xl md:text-5xl text-accent">
-     CELLGENE-2026
-    
-   
+            CELLGENE-2026
+
+
           </p>
 
           <div className="float-end mt-4">
