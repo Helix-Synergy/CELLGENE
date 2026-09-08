@@ -17,7 +17,7 @@ const Schedule = () => {
         }}
       >
         <h1 className="text-white text-3xl sm:text-5xl md:text-6xl font-bold px-4">
-CELLGENE - 2026
+CELLGENE-2027
         </h1>
       </div>
 
@@ -26,7 +26,7 @@ CELLGENE - 2026
         <EventSchedule
           height={"auto"}
           name={"Download"}
-          link={"/pharmaTech_schedule.pdf"}
+          link={"/CELLGENE 2027.pdf"}
         />
       </div>
 

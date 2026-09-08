@@ -101,7 +101,7 @@ const SponsorshipPackages = () => {
         </h1>{" "}
       </div>
       {/* <p className="text-center text-gray-600 mb-12">
-        18th Global Medical Conclave | 25–27 Nov 2025 | Valencia, Spain
+        CELLGENE | Mar 22–23 | 2027 | Valencia, Spain
       </p> */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-2 md:mx-12">
         {sponsorshipPackages.map((pkg) => (

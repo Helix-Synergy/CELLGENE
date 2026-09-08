@@ -65,8 +65,8 @@ const BrochureDownload = () => {
         setStatus({ type: "success", message: res.data.message || "Form submitted successfully. Brochure will now download." }); // <-- CHANGED: Replaced alert with status
         // Trigger brochure download
         const link = document.createElement("a");
-        link.href = "/CELLGENE%20(1).pdf"; // Make sure this path is correct
-        link.setAttribute("download", "CELLGENE (1).pdf");
+        link.href = "/CELLGENE 2027.pdf"; // Make sure this path is correct
+        link.setAttribute("download", "CELLGENE 2027.pdf");
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

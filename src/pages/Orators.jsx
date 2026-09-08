@@ -27,7 +27,7 @@ const Orators = () => {
           Meet Our Distinguished Orators
         </h2>
         <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600">
-International biopharma leaders, cell & gene therapy scientists, and advanced manufacturing experts accelerating scalable, compliant, and next-generation cell and gene therapy production at CELLGENE-2026
+International biopharma leaders, cell & gene therapy scientists, and advanced manufacturing experts accelerating scalable, compliant, and next-generation cell and gene therapy production at CELLGENE-2027
         </p>
       </div>
 

@@ -10,22 +10,22 @@ const faqLinks = {
 
 export const faqData = [
   {
-    question: "What is CELLGENE-2026?",
+    question: "What is CELLGENE-2027?",
     answer:
-      "CELLGENE-2026, officially titled the “Cell & Gene Therapy Manufacturing Summit”, is a premier international conference organized by Helix Conferences. The summit brings together global leaders in cell and gene therapy, biomanufacturing experts, researchers, technology providers, and regulatory professionals to advance scalable, compliant, and next-generation manufacturing solutions.",
+      "CELLGENE-2027, officially titled the “Cell & Gene Therapy Manufacturing Summit”, is a premier international conference organized by Helix Conferences. The summit brings together global leaders in cell and gene therapy, biomanufacturing experts, researchers, technology providers, and regulatory professionals to advance scalable, compliant, and next-generation manufacturing solutions.",
   },
   {
-    question: "When and where will CELLGENE-2026 take place?",
+    question: "When and where will CELLGENE-2027 take place?",
     answer:
-      "CELLGENE-2026 will be held on October 22–23, 2026, in Singapore.",
+      "CELLGENE-2027 will be held on Mar 22-23 | 2027, in Singapore.",
   },
   {
-    question: "What are the key highlights of CELLGENE-2026?",
+    question: "What are the key highlights of CELLGENE-2027?",
     answer:
       "Keynote presentations by global cell and gene therapy leaders, advanced manufacturing workshops, regulatory and quality sessions, viral vector and cell processing tracks, technology showcases, panel discussions, and high-impact networking opportunities.",
   },
   {
-    question: "What topics and tracks are covered at CELLGENE-2026?",
+    question: "What topics and tracks are covered at CELLGENE-2027?",
     answer: (
       <>
         Explore the complete list of summit tracks here:{" "}
@@ -35,7 +35,7 @@ export const faqData = [
           rel="noopener noreferrer"
           className="text-blue-600 underline"
         >
-          CELLGENE-2026 Tracks
+          CELLGENE-2027 Tracks
         </a>
         .
       </>
@@ -87,14 +87,14 @@ export const faqData = [
       "Standard presentation slots are typically 15–20 minutes, including Q&A. Final presentation guidelines will be shared upon acceptance.",
   },
   {
-    question: "Who should attend CELLGENE-2026?",
+    question: "Who should attend CELLGENE-2027?",
     answer:
       "Cell and gene therapy researchers, biomanufacturing professionals, process engineers, quality and regulatory experts, biotech and pharma leaders, CDMOs, technology providers, investors, startups, and academicians.",
   },
   {
     question: "How many participants are expected?",
     answer:
-      "CELLGENE-2026 is expected to host 150+ international participants, including speakers, delegates, exhibitors, and sponsors.",
+      "CELLGENE-2027 is expected to host 150+ international participants, including speakers, delegates, exhibitors, and sponsors.",
   },
   {
     question: "Can I submit multiple abstracts?",

@@ -29,7 +29,7 @@ const Executive_members = () => {
           Meet Our Distinguished Panel Members
         </h2>
         <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600">
-Leading global experts in cell and gene therapy manufacturing, bioprocess engineering, and GMP innovation advancing industrial-scale, high-quality ATMP production at CELLGENE-2026
+Leading global experts in cell and gene therapy manufacturing, bioprocess engineering, and GMP innovation advancing industrial-scale, high-quality ATMP production at CELLGENE-2027
         </p>
       </div>
 

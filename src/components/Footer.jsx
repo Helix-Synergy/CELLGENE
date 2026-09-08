@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import logo from "../assets/logo.webp";
+
 import { Link } from "react-router-dom";
 import { socialLinks, WhatsAppIcon } from "../utils/Quick Links/Links";
 import { ChevronRight, Mail, MapPin, Phone } from "lucide-react";
+
+const logo = "/cos - 2026 6.png";
 
 const Footer = () => {
 

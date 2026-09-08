@@ -10,7 +10,7 @@ const AboutUs = () => {
       {/* <div className="flex justify-center">
         <img
           src={about_img}
-          alt="Dental Conference 2026"
+          alt="CELLGENE 2027"
           loading="lazy"
           className="h-[50%] md:max-h-[50%] w-auto md:w-[80vh] md:mx-16 rounded-2xl object-cover"
         />
